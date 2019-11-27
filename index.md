@@ -161,8 +161,8 @@
             </div>
             
             <div class="welcome">
-                <h1>Welcome to <span style="font-family: 'Allura', cursive; font-size: 5vw;">Advanz</span> Fitness!</h1>
-                <p>My name is Addison Van Zandbergen and I am the founder of <span style="font-family: 'Allura', cursive; font-size: 2vw;">Advanz</span> Fitness.
+                <h1>Welcome to <span style="font-family: 'Allura', cursive; font-size: 60px;">Advanz</span> Fitness!</h1>
+                <p>My name is Addison Van Zandbergen and I am the founder of <span style="font-family: 'Allura', cursive; font-size: 130%;">Advanz</span> Fitness.
                 I decided to start this venture as a way to better promote my services as a group fitness instructor but decided to push myself even further, creating a personal brand. 
                 I focus not only on physical fitness, but mental well-being and personal growth as well. 
                 My goal is to promote "advanzments" in the wellness of my clients and myself through integrated fitness and relaxation techniques.
