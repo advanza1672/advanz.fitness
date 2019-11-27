@@ -105,7 +105,7 @@
                 font-size: 40px;
                 }
             .welcome {
-                width: 90%!important;
+                width: 95%!important;
             }
         }
         }
