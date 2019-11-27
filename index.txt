@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            h1 {
+                color: rgb(250,100,0);
+                text-align: center;
+                font-size: 50px;
+                background-color: black;
+                top: 50px;
+                padding: 50px;
+            }
+            h2 {  
+                padding-left: 40px; 
+                padding-right: 200px;
+            }
+            p {
+                padding-left: 40px;
+                width: 40%
+            }
+            ul {
+                padding-left: 60px;
+            }
+            #info {
+                background-color: rgb(250,100,0);
+                padding-bottom: 25px;
+            }
+            h3 {
+                font-size: 250px;
+                float: right;
+                margin-right: 300px;
+                margin-bottom: 75px;
+                position: sticky;
+                top: 30px;
+            }
+            img {
+                width: 500px;
+                border: 10px inset black;
+                margin-left: 90px;
+                margin-top: 15px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="info"><h1>OSU Maps and Spatial Data Services Guides</h1>
+        <!-- // need to change logo on git pages and add it here // -->
+
+        <h3><div>O</div><div>S</div><div>U</div></h3>
+
+        <h2>Table of Contents</h2>
+
+        <ul>
+            <li><a href="#georef">Georeferencing in ArcGIS Pro</a></li>
+            <li><a href="#pubgeoref">Publishing Georeferenced Maps</a></li>
+            <!-- // this is in lib-maps!!! // -->
+            <li><a href="#digitize">Digitizing in ArcGIS Pro</a></li>
+            <!-- // this is in lib-maps!!! // -->
+            <li><a href="#edit">Editing in ArcGIS Pro</a></li>
+            <li><a href="#arcscan">Using Arcscan</a></li>
+            <li><a href="#mosaic">Creating a Mosaic Dataset</a></li>
+            <li><a href="#tour">Storymap Tour</a></li>
+            <li><a href="#cascade">Storymap Cascade</a></li>
+            <li><a href="#journal">Storymap Journal</a></li>
+            <li><a href="#js">Storymap JS</a></li>
+        </ul>
+
+        <h2 id="georef">Georeferencing in ArcGIS Pro</h2>
+
+        <p>Georeferencing is the process of adding geographic information to a raster image. 
+            This allows mapping software to place the image in its real-world location.
+            This <a target="_blank" href="https://okstate-maps.github.io/guide-georeference-maps/">guide</a> explains how to assign geographic coordinates to the raster's pixels.</p>
+        
+            <a target="_blank" href="https://okstate-maps.github.io/guide-georeference-maps/"><img src="web-images\georef.PNG" alt="georeferencing control points on map"></a>
+
+        <h2 id="pubgeoref">Publishing Georeferenced Maps</h2>
+
+        <p>ArcGIS Pro allows completed projects to be published online or shared with others. 
+            ArcGIS Online is a common publishing platform.
+            While this <a target="_blank" href="https://okstate-maps.github.io/guide-publishing-georeferenced-map/">guide</a> explicitly states the steps needed to publish a georeferenced map,
+            the same steps can be taken to publish other projects.</p>
+
+            <a target="_blank" href="https://okstate-maps.github.io/guide-publishing-georeferenced-map/"><img src="web-images\pub.PNG" alt="publishing a project"></a>
+
+        <h2 id="digitize">Digitizing in ArcGIS Pro</h2>
+
+        <p>ArcGIS Pro allows raster data to be converted into vector digital data. This can be done manually or automatically,
+            although manual digitization tends to allow for more accuracy.
+            This is a step-by-step <a target="_blank" href="https://lib-map.github.io/guide-digitizing/">guide</a> through the digitization process.</p>
+       
+            <a target="_blank" href="https://lib-map.github.io/guide-digitizing/"><img src="web-images\digitize.PNG" alt="digitizing a pond"></a>
+
+        <h2 id="edit">Editing in ArcGIS Pro</h2>
+
+        <p>ArcGIS Pro enables users to edit existing vector data. 
+            The three most common editing tools are auto-complete polygon, merge and split.
+            In this <a target="_blank" href="https://lib-map.github.io/guide-editing/">guide</a>, you will learn how to utilize these tools for your own projects.</p>
+        
+            <a target="_blank" href="https://lib-map.github.io/guide-editing/"><img src="web-images\edit.PNG" alt="editing property lines"></a>
+
+        <h2 id="arcscan">Using Arcscan</h2>
+
+        <p>ArcScan allows images to be turned into vector-based feature layers through the process of vectorization.
+            Currently, ArcMap is the only esri platform that supports Arcscan.
+            This <a target="_blank" href="https://okstate-maps.github.io/guide-arcscan/">guide</a> will walk you through the steps needed to start using Arcscan.</p>
+            
+            <a target="_blank" href="https://okstate-maps.github.io/guide-arcscan/"><img src="web-images\scan.PNG" alt="vectorizing soil lines"></a>
+
+        <h2 id="mosaic">Creating a Mosaic Dataset</h2>
+
+        <p>Mosaic datasets allow users to work with large collections of raster data. 
+            These datasets can be created in ArcGIS Pro to make data management simple.
+            In this <a target="_blank" href="https://okstate-maps.github.io/guide-mosaic/">guide</a>, you will learn how to create and work with mosaic datasets.</p>
+       
+            <a target="_blank" href="https://okstate-maps.github.io/guide-mosaic/"><img src="web-images\mosaic.PNG" alt="mosaic of aerial photographs"></a>
+
+        <h2 id="tour">Story Map Tour</h2>
+
+        <p>Story Maps are a relatively new and unique way of telling stories through the use of maps, images and videos.
+            Esri offers many different Story Map templates that can be utilized for a multitude of projects and purposes.
+            Story Map Tour allows you to link photos and videos with an interactive map. 
+            The most popular use for this kind of story map is to create guided walking tours for readers.
+            Our <a target="_blank" href="https://okstate-maps.github.io/guide-storymap-tour/">guide</a> will teach you how to do this.</p>
+
+            <a target="_blank" href="https://okstate-maps.github.io/guide-storymap-tour/"><img src="web-images\tour.PNG" alt="preview of storymap tour"></a>
+
+        <h2 id="cascade">Story Map Cascade</h2>
+
+        <p>Story Map Cascade allows you to create a full screen, engaging scrolling experience.
+            Using this option allows you to add narrative, images, videos and much more.
+            Sections can be separated by immersive sections with animations and stylish transitions.
+            In this <a target="_blank" href="https://okstate-maps.github.io/guide-storymap-cascade/">guide</a>, you will learn how to create a Story Map Cascade</p>
+        
+            <a target="_blank" href="https://okstate-maps.github.io/guide-storymap-cascade/"><img src="web-images\cascade.PNG" alt="previe of storymap cascade"></a>
+
+        <h2 id="journal">Story Map Journal</h2>
+
+        <p>Story Map Journal allows users to create an in-depth journal narrative that is organized into separate sections.
+                This allows readers to scroll through the different sections of text and see the relavent content, 
+                such as maps, images, videos, etc.
+                Our <a target="_blank" href="https://okstate-maps.github.io/guide-storymap-journal/">guide</a> will take through each step needed to create your own Story Map Journal.</p>
+        
+                <a target="_blank" href="https://okstate-maps.github.io/guide-storymap-journal/"><img src="web-images\journal.PNG" alt="preview of storymap journal"></a>
+
+        <h2 id="js">Story Map JS</h2>
+
+        <p>Knight Lab offers a variety of tools, including a StoryMap creator.
+            This is a great alternative for those who do not have access to an esri account.
+            This <a target="_blank" href="https://okstate-maps.github.io/guide-storymap-js/">guide</a> for StoryMap JS is easy to use and extremely convenient.</p>  
+       
+            <a target="_blank" href="https://okstate-maps.github.io/guide-storymap-js/"><img src="web-images\js.PNG" alt="preview of storymap js"></a>
+
+        </div>
+
+    </body>
+</html>
